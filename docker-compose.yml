@@ -1,0 +1,12 @@
+services:
+
+  web:
+
+    build: .
+
+    container_name: jenkins-demo
+
+    ports:
+      - "8081:80"
+
+    restart: always
